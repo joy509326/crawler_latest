@@ -1,0 +1,164 @@
+2024-04-30 16:21:54 - Starting SeleniumApplication using Java 17.0.9 with PID 14988 (C:\Users\a5614\Desktop\crawler_latest\Selenium\target\classes started by a5614 in C:\Users\a5614\Desktop\crawler_latest\Selenium)
+2024-04-30 16:21:54 - No active profile set, falling back to 1 default profile: "default"
+2024-04-30 16:21:55 - Started SeleniumApplication in 1.102 seconds (process running for 1.992)
+2024-04-30 16:22:25 - Starting SeleniumApplication using Java 17.0.9 with PID 20328 (C:\Users\a5614\Desktop\crawler_latest\Selenium\target\classes started by a5614 in C:\Users\a5614\Desktop\crawler_latest\Selenium)
+2024-04-30 16:22:25 - No active profile set, falling back to 1 default profile: "default"
+2024-04-30 16:22:26 - Started SeleniumApplication in 0.979 seconds (process running for 2.033)
+2024-04-30 16:22:57 - Starting SeleniumApplication using Java 17.0.9 with PID 1712 (C:\Users\a5614\Desktop\crawler_latest\Selenium\target\classes started by a5614 in C:\Users\a5614\Desktop\crawler_latest\Selenium)
+2024-04-30 16:22:57 - No active profile set, falling back to 1 default profile: "default"
+2024-04-30 16:22:58 - Started SeleniumApplication in 0.644 seconds (process running for 1.182)
+2024-04-30 16:23:00 - Sheet1 抓取資料起始時間:Mon Apr 29 09:00:00 CST 2024
+2024-04-30 16:23:00 - Sheet1 抓取資料結束時間:Tue Apr 30 09:00:00 CST 2024
+2024-04-30 16:23:00 - Sheet2 抓取資料起始時間:Mon Apr 29 00:00:00 CST 2024
+2024-04-30 16:23:00 - Sheet2 抓取資料結束時間:Mon Apr 29 09:00:00 CST 2024
+2024-04-30 16:23:00 - org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at /home/ubuntu/SCSB_Crawler/chrome-ubuntu/chromedriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at com.example.selenium.bean.Crawler.getWebDriver(Crawler.java:598)
+	at com.example.selenium.bean.Crawler.run(Crawler.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2024-04-30 16:23:00 - Retry...(No.1/1)
+2024-04-30 16:23:37 - Starting SeleniumApplication using Java 17.0.9 with PID 28184 (C:\Users\a5614\Desktop\crawler_latest\Selenium\target\classes started by a5614 in C:\Users\a5614\Desktop\crawler_latest\Selenium)
+2024-04-30 16:23:37 - No active profile set, falling back to 1 default profile: "default"
+2024-04-30 16:23:37 - Started SeleniumApplication in 1.202 seconds (process running for 2.21)
+2024-04-30 16:24:00 - Sheet1 抓取資料起始時間:Mon Apr 29 09:00:00 CST 2024
+2024-04-30 16:24:00 - Sheet1 抓取資料結束時間:Tue Apr 30 09:00:00 CST 2024
+2024-04-30 16:24:00 - Sheet2 抓取資料起始時間:Mon Apr 29 00:00:00 CST 2024
+2024-04-30 16:24:00 - Sheet2 抓取資料結束時間:Mon Apr 29 09:00:00 CST 2024
+2024-04-30 16:24:00 - org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at C:\Users\a5614\Desktop\Selenium2\crawler\chrome-windows\chromedriver.exe, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at com.example.selenium.bean.Crawler.getWebDriver(Crawler.java:598)
+	at com.example.selenium.bean.Crawler.run(Crawler.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2024-04-30 16:24:00 - Retry...(No.1/1)
+2024-04-30 16:24:37 - Shutdown phase 2147483647 ends with 1 bean still running after timeout of 30000ms: [taskScheduler]
+2024-04-30 16:31:32 - Starting SeleniumApplication using Java 17.0.9 with PID 6692 (C:\Users\a5614\Desktop\crawler_latest\Selenium\target\classes started by a5614 in C:\Users\a5614\Desktop\crawler_latest\Selenium)
+2024-04-30 16:31:32 - No active profile set, falling back to 1 default profile: "default"
+2024-04-30 16:31:33 - Started SeleniumApplication in 0.672 seconds (process running for 1.181)
+2024-04-30 16:32:00 - Sheet1 抓取資料起始時間:Mon Apr 29 09:00:00 CST 2024
+2024-04-30 16:32:00 - Sheet1 抓取資料結束時間:Tue Apr 30 09:00:00 CST 2024
+2024-04-30 16:32:00 - Sheet2 抓取資料起始時間:Mon Apr 29 00:00:00 CST 2024
+2024-04-30 16:32:00 - Sheet2 抓取資料結束時間:Mon Apr 29 09:00:00 CST 2024
+2024-04-30 16:32:03 - Unable to find an exact match for CDP version 122, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 122
+2024-04-30 16:38:02 - =====Unreserved News=====
+2024-04-30 16:38:05 -  No. 1 round / 64 round https://udn.com/news/story/6811/7931600 - HTTP GET succeed
+2024-04-30 16:38:05 -  No. 2 round / 64 round https://udn.com/news/story/7321/7931427 - HTTP GET succeed
+2024-04-30 16:38:06 -  No. 3 round / 64 round https://udn.com/news/story/7320/7930426 - HTTP GET succeed
+2024-04-30 16:38:07 -  No. 4 round / 64 round https://udn.com/news/story/7315/7930012 - HTTP GET succeed
+2024-04-30 16:38:07 -  No. 5 round / 64 round https://udn.com/news/story/6809/7932224 - HTTP GET succeed
+2024-04-30 16:38:08 -  No. 6 round / 64 round https://udn.com/news/story/10930/7932214 - HTTP GET succeed
+2024-04-30 16:38:08 -  No. 7 round / 64 round https://udn.com/news/story/123777/7932211 - HTTP GET succeed
+2024-04-30 16:38:09 -  No. 8 round / 64 round https://udn.com/news/story/7338/7931879 - HTTP GET succeed
+2024-04-30 16:38:11 -  No. 9 round / 64 round https://udn.com/news/story/7333/7931850 - HTTP GET succeed
+2024-04-30 16:38:16 -  No. 10 round / 64 round https://udn.com/news/story/7331/7931829 - HTTP GET succeed
+2024-04-30 16:38:18 -  No. 11 round / 64 round https://vip.udn.com/vip/story/121523/7931850 - HTTP GET succeed
+2024-04-30 16:38:23 -  No. 12 round / 64 round https://vip.udn.com/vip/story/121523/7931829 - HTTP GET succeed
+2024-04-30 16:38:25 -  No. 13 round / 64 round https://udn.com/news/story/6809/7931664 - HTTP GET succeed
+2024-04-30 16:38:25 -  No. 14 round / 64 round https://udn.com/news/story/122663/7931445 - HTTP GET succeed
+2024-04-30 16:38:26 -  No. 15 round / 64 round https://udn.com/news/story/6813/7931190 - HTTP GET succeed
+2024-04-30 16:38:27 -  No. 16 round / 64 round https://udn.com/news/story/6811/7930853 - HTTP GET succeed
+2024-04-30 16:38:28 -  No. 17 round / 64 round https://udn.com/news/story/7321/7930842 - HTTP GET succeed
+2024-04-30 16:38:29 -  No. 18 round / 64 round https://udn.com/news/story/7331/7930683 - HTTP GET succeed
+2024-04-30 16:38:31 -  No. 19 round / 64 round https://udn.com/news/story/6811/7930562 - HTTP GET succeed
+2024-04-30 16:38:31 -  No. 20 round / 64 round https://udn.com/news/story/6656/7930467 - HTTP GET succeed
+2024-04-30 16:38:33 -  No. 21 round / 64 round https://udn.com/news/story/7333/7930433 - HTTP GET succeed
+2024-04-30 16:38:42 -  No. 22 round / 64 round https://udn.com/news/story/7331/7930392 - HTTP GET succeed
+2024-04-30 16:38:45 -  No. 23 round / 64 round https://udn.com/news/story/7331/7930136 - HTTP GET succeed
+2024-04-30 16:38:45 -  No. 24 round / 64 round https://udn.com/news/story/6811/7929908 - HTTP GET succeed
+2024-04-30 16:38:46 -  No. 25 round / 64 round https://udn.com/news/story/7241/7931873 - HTTP GET succeed
+2024-04-30 16:38:47 -  No. 26 round / 64 round https://udn.com/news/story/7243/7930704 - HTTP GET succeed
+2024-04-30 16:38:48 -  No. 27 round / 64 round https://udn.com/news/story/7255/7931545 - HTTP GET succeed
+2024-04-30 16:38:49 -  No. 28 round / 64 round https://udn.com/news/story/7315/7930012 - HTTP GET succeed
+2024-04-30 16:38:50 -  No. 29 round / 64 round https://udn.com/news/story/6809/7931364 - HTTP GET succeed
+2024-04-30 16:38:51 -  No. 30 round / 64 round https://udn.com/news/story/6809/7930317 - HTTP GET succeed
+2024-04-30 16:38:52 -  No. 31 round / 64 round https://udn.com/news/story/7266/7931956 - HTTP GET succeed
+2024-04-30 16:38:52 -  No. 32 round / 64 round https://udn.com/news/story/7338/7931919 - HTTP GET succeed
+2024-04-30 16:38:53 -  No. 33 round / 64 round https://vip.udn.com/vip/story/121523/7931956 - HTTP GET succeed
+2024-04-30 16:38:54 -  No. 34 round / 64 round https://vip.udn.com/vip/story/121523/7931919 - HTTP GET succeed
+2024-04-30 16:38:55 -  No. 35 round / 64 round https://udn.com/news/story/7321/7931427 - HTTP GET succeed
+2024-04-30 16:38:55 -  No. 36 round / 64 round https://udn.com/news/story/7320/7931416 - HTTP GET succeed
+2024-04-30 16:39:02 -  No. 37 round / 64 round https://udn.com/news/story/7321/7931192 - HTTP GET succeed
+2024-04-30 16:39:04 -  No. 38 round / 64 round https://udn.com/news/story/7315/7930870 - HTTP GET succeed
+2024-04-30 16:39:05 -  No. 39 round / 64 round https://udn.com/news/story/7320/7930426 - HTTP GET succeed
+2024-04-30 16:39:05 -  No. 40 round / 64 round https://udn.com/news/story/7315/7930144 - HTTP GET succeed
+2024-04-30 16:39:06 -  No. 41 round / 64 round https://udn.com/news/story/7315/7930012 - HTTP GET succeed
+2024-04-30 16:39:07 -  No. 42 round / 64 round https://stars.udn.com/star/story/10090/7932247 - HTTP GET succeed
+2024-04-30 16:39:08 -  No. 43 round / 64 round https://udn.com/news/story/7239/7931870 - HTTP GET succeed
+2024-04-30 16:39:09 -  No. 44 round / 64 round https://udn.com/news/story/7243/7931826 - HTTP GET succeed
+2024-04-30 16:39:10 -  No. 45 round / 64 round https://udn.com/news/story/7239/7931205 - HTTP GET succeed
+2024-04-30 16:39:11 -  No. 46 round / 64 round https://udn.com/news/story/7321/7931192 - HTTP GET succeed
+2024-04-30 16:39:17 -  No. 47 round / 64 round https://udn.com/news/story/7320/7930966 - HTTP GET succeed
+2024-04-30 16:39:18 -  No. 48 round / 64 round https://udn.com/news/story/7266/7930888 - HTTP GET succeed
+2024-04-30 16:39:18 -  No. 49 round / 64 round https://udn.com/news/story/7315/7930870 - HTTP GET succeed
+2024-04-30 16:39:18 -  No. 50 round / 64 round https://tech.udn.com/tech/story/123158/7930572 - HTTP GET succeed
+2024-04-30 16:39:19 -  No. 51 round / 64 round https://game.udn.com/game/story/122089/7930572 - HTTP GET succeed
+2024-04-30 16:39:21 -  No. 52 round / 64 round https://udn.com/news/story/7239/7930596 - HTTP GET succeed
+2024-04-30 16:39:22 -  No. 53 round / 64 round https://udn.com/news/story/7326/7930441 - HTTP GET succeed
+2024-04-30 16:39:23 -  No. 54 round / 64 round https://udn.com/news/story/7320/7930426 - HTTP GET succeed
+2024-04-30 16:39:25 -  No. 55 round / 64 round https://ubrand.udn.com/ubrand/story/11815/7930169 - HTTP GET succeed
+2024-04-30 16:39:26 -  No. 56 round / 64 round https://udn.com/news/story/7315/7930012 - HTTP GET succeed
+2024-04-30 16:39:26 -  No. 57 round / 64 round https://udn.com/news/story/7315/7931858 - HTTP GET succeed
+2024-04-30 16:39:27 -  No. 58 round / 64 round https://udn.com/news/story/7321/7931839 - HTTP GET succeed
+2024-04-30 16:39:28 -  No. 59 round / 64 round https://vip.udn.com/vip/story/121523/7931858 - HTTP GET succeed
+2024-04-30 16:39:30 -  No. 60 round / 64 round https://vip.udn.com/vip/story/121523/7931839 - HTTP GET succeed
+2024-04-30 16:39:31 -  No. 61 round / 64 round https://udn.com/news/story/7315/7930870 - HTTP GET succeed
+2024-04-30 16:39:32 -  No. 62 round / 64 round https://udn.com/news/story/6813/7930358 - HTTP GET succeed
+2024-04-30 16:39:32 -  No. 63 round / 64 round https://udn.com/news/story/7315/7930144 - HTTP GET succeed
+2024-04-30 16:39:32 -  No. 64 round / 64 round https://udn.com/news/story/7266/7929910 - HTTP GET succeed
+2024-04-30 16:39:33 - =====Reserved News=====
+2024-04-30 16:39:33 -  No. 1 round / 4 round https://vip.udn.com/vip/story/122714/7927323 - HTTP GET succeed
+2024-04-30 16:39:35 -  No. 2 round / 4 round https://udn.com/news/story/7321/7929562 - HTTP GET succeed
+2024-04-30 16:39:35 -  No. 3 round / 4 round https://udn.com/news/story/7320/7929606 - HTTP GET succeed
+2024-04-30 16:39:36 -  No. 4 round / 4 round https://udn.com/news/story/7321/7929886 - HTTP GET succeed
+2024-04-30 16:39:37 - Files are successfully deleted
+2024-04-30 16:39:42 - Email sent successfully!
+2024-04-30 16:39:42 - Zip file is successfully deleted
